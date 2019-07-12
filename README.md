@@ -1,4 +1,4 @@
-# Envolventes Inteligentes
+# DesignExplorer
 
 Envolventes inteligentes es una aplicación web que permite la exploración de diferentes alternativas de diseño de una forma sencilla y agradable!
 
