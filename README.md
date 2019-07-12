@@ -1,8 +1,9 @@
-# DesignExplorer
+# Envolventes Inteligentes
 
-Design Explore is a web application to make exploring multi-dimensional design space enjoying and meaningful!
+Envolventes inteligentes es una aplicación web que permite la exploración de diferentes alternativas de diseño de una forma sencilla y agradable!
 
-## Design Explorer is built on top of these plugins and web technologies:
+## Envolventes Inteligentes está costruido apartir de los siguientes plugins y tecnologías Web Design Explorer is built on top of these plugins and web technologies:
+### [DesignExplorer](https://github.com/tt-acm/DesignExplorer)
 ### [Bootstrap template with side bar](http://getbootstrap.com/)
 ### [D3 Parallel coordinates](https://syntagmatic.github.io/parallel-coordinates/)
 ### [D3js](http://d3js.org/)
