@@ -35,7 +35,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Design Explorer 2</title>
+    <title>Envolvente Inteligentes</title>
 
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon.png">
@@ -165,7 +165,7 @@
         
         // no img link
         if(file === 0 || file === undefined){
-            return "http://mingbopeng.github.io/DesignExplorer/img/thorntontomasetti.jpg";
+            return "http://mingbopeng.github.io/DesignExplorer/img/arango.studio.jpg";
         }
  
 
@@ -280,7 +280,7 @@
                     <li>
                         <!--button to load csv uncommented-->
                         <p class="navbar-text">
-                            <button id="showLoadData" class="file-upload" style="border-radius: 20px;">Get Data</button>
+                            <button id="showLoadData" class="file-upload" style="border-radius: 20px;">Importar Información</button>
                         </p>
                     </li>
                 </ul>
@@ -333,20 +333,20 @@
                                     <button type="button" class="btn btn-default btn-xs" id="pcgraph" data-toggle="collapse">
                                         <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
                                     </button>
-                                    <button id="reset" class="btn btn-default btn-xs">Reset Selection</button>
-                                    <button id="remove" class="btn btn-default btn-xs">Exclude Selection</button>
-                                    <button id="keep" class="btn btn-default btn-xs">Zoom to Selection</button>
-                                    <button id="savecsv" class="btn btn-default btn-xs" onclick="saveToCSV()">Save Selection to File</button>
-                                    <button id="stilllink" class="btn btn-default btn-xs" onclick="showStillLink()">My Static Link</button>
-                                    <a class="btn btn-default btn-xs" href="http://www.mpendesign.com/category/tutorial/" target="_blank">Tutorial</a>
-                                    <a class="btn btn-default btn-xs" href="https://www.thorntontomasetti.com/services/sustainability/" target="_blank">Services</a>
-                                    <a href="https://github.com/tt-acm/DesignExplorer/wiki" class="btn btn-default btn-xs" target="_blank">
+                                    <button id="reset" class="btn btn-default btn-xs">Resetear Selección</button>
+                                    <button id="remove" class="btn btn-default btn-xs">Excluir Selección</button>
+                                    <button id="keep" class="btn btn-default btn-xs">Zoom Selección</button>
+                                    <button id="savecsv" class="btn btn-default btn-xs" onclick="saveToCSV()">Guardar Selección a un Archivo</button>
+                                    <button id="stilllink" class="btn btn-default btn-xs" onclick="showStillLink()">Link estático</button>
+                                    <a class="btn btn-default btn-xs" href="http://www.arango.studio.com/category/tutorial/" target="_blank">Tutorial</a>
+                                    <a class="btn btn-default btn-xs" href="https://www.arango.studio.com/services/sustainability/" target="_blank">Servicios</a>
+                                    <a href="https://cambiar.com/" class="btn btn-default btn-xs" target="_blank">
                                         Info <span class="glyphicon glyphicon-new-window"></span>
                                     </a>
 
                                     <!-- Change label size -->
                                     <div class="btn-group col-xs-3" style="width: auto;float: right;">
-                                        <button id="dataSetting" class="btn btn-default btn-xs" onclick="dataSetting(graph)" title="Setting">Setting</button>
+                                        <button id="dataSetting" class="btn btn-default btn-xs" onclick="dataSetting(graph)" title="Setting">Ajustes</button>
                                         <button id="LL" class="btn btn-default btn-xs" onclick="changeLabelSize('largeLabel')" title="Large Label">L</button>
                                         <button id="MM" class="btn btn-default btn-xs" onclick="changeLabelSize('mediumLabel')" title="Medium Label">M</button>
                                         <button id="SS" class="btn btn-default btn-xs" onclick="changeLabelSize('smallLabel')" title="Small Label">S</button>
@@ -376,8 +376,8 @@
                                     <button type="button" class="btn btn-default btn-xs" id="scatter-fullscreen-toggle" title="Full Screen">
                                         <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
                                     </button>
-                                    <a id="copyRightButton" href="http://core.thorntontomasetti.com/" class="btn btn-default btn-xs" target="_blank" style="width: calc(100% - 46px);">
-                                        &copy; 2017 Thornton Tomasetti
+                                    <a id="copyRightButton" href="http://core.arango.studio.com/" class="btn btn-default btn-xs" target="_blank" style="width: calc(100% - 46px);">
+                                        &copy; 2019 Juan Pablo Arango
                                     </a>
                                     <!--<button type="button" class="btn btn-default btn-xs" id="rcgraph" data-toggle="collapse" data-target="#radarChart">
                                         <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
@@ -473,13 +473,13 @@
                         <span class="glyphicon glyphicon-remove"></span>
                     </button>
                     <br>
-                    <h1 class="text-center" style="margin-top: 1em;"> Welcome to Design Explorer!</h1>
+                    <h1 class="text-center" style="margin-top: 1em;"> ¡¡Bienvenido a Envolventes Inteligentes!!</h1>
                     <h4 class="text-center">
-                        Design Explorer is an open source tool for exploring multi-dimensional parametric studies!
+                        Envolvente Inteligentes en una herramienta que permite la exploración de diferentes alternativas de diseño
                     </h4>
                     <br>
 
-                    <h5 class="text-center">Try one of following sample design sets or load your own data.<a href="http://www.mpendesign.com/category/tutorial/" target="_blank"> (Tutorial)</a></h5> 
+                    <h5 class="text-center">Prueba algunas de nuestras últimas herramientas.<a href="http://www.arango.studio.com/category/tutorial/" target="_blank"> (Próximamente)</a></h5> 
                     <h5 class="text-center"></h5>
                     <div class="row">
                         <div class="col-sm-4">
@@ -495,18 +495,18 @@
                         <br>
                     </div>
                     <div class="col-lg-12" style="position: absolute;bottom: 2em;width: calc(100% - 60px);">
-                        <h3 class="text-center"> Happy Exploring! </h3>
-                        <h5 class="text-center">v2 (12/13/2017)</h5>
+                        <h3 class="text-center"> ¡Esperamos que nos contactes! </h3>
+                        <h5 class="text-center">Versión Beta 3 (05/01/2019)</h5>
                         <br>
                         <h5 class="text-center">
-                            &copy; CORE studio | Thornton Tomasetti |
-                            <a href="http://core.thorntontomasetti.com/about" target="_blank"> About</a> |
-                            <a href="http://core.thorntontomasetti.com/about/services" target="_blank">Services</a> |
-                            <a href="http://core.thorntontomasetti.com/about/contact" target="_blank">Contact</a>
+                            &copy; ARANGO studio | Juan Pablo Arango |
+                            <a href="http://arango.studio.com/about" target="_blank"> Acerca</a> |
+                            <a href="http://arango.studio.com/about/services" target="_blank">Servicios</a> |
+                            <a href="http://arango.studio.com/about/contact" target="_blank">Contacto</a>
                         </h5>
                         <h5 class="text-center">
-                            Updated by
-                            <a href="http://www.mpendesign.com" target="_blank">Mingbo Peng</a>
+                            Actualizado por
+                            <a href="http://arango.studio.com/about" target="_blank">Juan Pablo Arango</a>
                         </h5>
                     </div>
                 </div>
