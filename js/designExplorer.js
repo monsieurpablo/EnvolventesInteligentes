@@ -290,10 +290,10 @@ function loadFromUrl(rawUrl) {
 function changeLabelSize(size) {
     if (size == "largeLabel") {
         d3.selectAll(".label")
-            .style("font-size", "95%");
+            .style("font-size", "120%");
     } else if (size == "mediumLabel") {
         d3.selectAll(".label")
-            .style("font-size", "85%");
+            .style("font-size", "100%");
     } else if (size == "smallLabel") {
         d3.selectAll(".label")
             .style("font-size", "75%");
