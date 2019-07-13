@@ -296,7 +296,7 @@ function changeLabelSize(size) {
             .style("font-size", "100%");
     } else if (size == "smallLabel") {
         d3.selectAll(".label")
-            .style("font-size", "75%");
+            .style("font-size", "85%");
     }
 }
 
