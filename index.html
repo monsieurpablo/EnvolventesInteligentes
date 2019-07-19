@@ -219,7 +219,7 @@
 
         }else if (_folderInfo.DE_PW.length>0){
             // if _folderInfo.DE_PW existed, just return.
-            studyEncodedUrl = document.location.origin + "/DesignExplorer/?ID=" + _folderInfo.DE_PW; 
+            studyEncodedUrl = document.location.origin + "/EnvolventesInteligentes/?ID=" + _folderInfo.DE_PW; 
             d3.select("#showShortUrl").html("https://goo.gl/" +_folderInfo.DE_PW);
             d3.select("#myStudyID").html(studyEncodedUrl); 
             $("#showStillLink").modal();
@@ -228,7 +228,7 @@
         }
 
         //valid online folder available
-        var studyLongUrl = document.location.origin +"/DesignExplorer/?ID="+ studyCaseLink;
+        var studyLongUrl = document.location.origin +"/EnvolventesInteligentes/?ID="+ studyCaseLink;
         d3.select("#welcome").style("display","none");
         
         
@@ -238,7 +238,7 @@
 
             if(UrlId.length ==6){ // google url id
                 
-                studyEncodedUrl = document.location.origin +"/DesignExplorer/?ID="+_folderInfo.DE_PW;
+                studyEncodedUrl = document.location.origin +"/EnvolventesInteligentes/?ID="+_folderInfo.DE_PW;
                 d3.select("#showShortUrl").html("https://goo.gl/"+ _folderInfo.DE_PW);
 
             }else{
@@ -269,7 +269,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <div class="navbar-header" title="Design Explorer">
+                <div class="navbar-header" title="Envolventes Inteligentes">
                     <a href="http://monsieurpablo.github.io/EnvolventesInteligentes/"> <img style="max-width:350px; padding-top: 10px;" src="./img/DesignExplorerLogo3.png"></a>
                 </div>
             </div>
@@ -337,7 +337,7 @@
                                     <button id="remove" class="btn btn-default btn-xs">Excluir Selección</button>
                                     <button id="keep" class="btn btn-default btn-xs">Zoom Selección</button>
                                     <button id="savecsv" class="btn btn-default btn-xs" onclick="saveToCSV()">Guardar Selección</button>
-                                    <button id="stilllink" class="btn btn-default btn-xs" onclick="showStillLink()">Link estático</button>
+                                    <button id="stilllink" class="btn btn-default btn-xs" onclick="showStillLink()">Link Estático</button>
                                     <a class="btn btn-default btn-xs" href="http://www.arango.studio.com/category/tutorial/" target="_blank">Tutorial</a>
                                     <a class="btn btn-default btn-xs" href="https://www.arango.studio.com/services/sustainability/" target="_blank">Servicios</a>
                                     <a href="https://cambiar.com/" class="btn btn-default btn-xs" target="_blank">
